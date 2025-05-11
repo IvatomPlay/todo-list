@@ -1,0 +1,28 @@
+.taskList {
+  min-height: 200px;
+  width: 100%;
+  border: 1px dashed gray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-size: 18px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  background-color: #d1f8ff;
+}
+
+.tasks_text .completed {
+  text-decoration: line-through;
+  color: #888;
+}

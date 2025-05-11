@@ -1,0 +1,39 @@
+.form {
+  width: 450px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.textField {
+  height: auto;
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.textField::placeholder {
+  font-style: italic;
+}
+
+.btn {
+  max-width: auto;
+  height: auto;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fafdff;
+  background-color: #10ff9b;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ffc400;
+  box-shadow: 0 0 25px rgba(255, 230, 0, 0.8);
+}
