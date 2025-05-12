@@ -27,3 +27,18 @@
 .tasks_text .completed {
   text-decoration: line-through;
 }
+
+.btn {
+  width: auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #22c682;
+  padding: 5px;
+  color: #fafdff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ffc400;
+  box-shadow: 0 0 25px rgba(255, 230, 0, 0.8);
+}

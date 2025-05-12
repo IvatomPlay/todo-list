@@ -15,6 +15,7 @@ export default function toDoList({tasks, onToggle, onDelete}) {
             />
             <span className={`${styles.tasks_text} ${tasks.completed ? styles.completed : ''}`}>{tasks.text}</span>
             <button
+              className={styles.btn}
               onClick={() => onDelete(tasks.id)}
             >Delete Task</button>
           </li>
