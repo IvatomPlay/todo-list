@@ -5,7 +5,7 @@
   border-radius: 10px;
   padding: 10px;
   background-color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .list {
@@ -24,7 +24,7 @@
   background-color: #d1f8ff;
 }
 
-.tasks_text .completed {
+.tasks_text.completed {
   text-decoration: line-through;
 }
 

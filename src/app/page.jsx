@@ -21,12 +21,12 @@ export default function Home() {
 
   // function set co,plete or not complete status to the tasks
   function taskComplete(id) {
-    setTasks(tasks.map(tasks.id === id ? {...tasks, completed: !tasks.completed} : tasks));
+    setTasks(tasks.map(task => task.id === id ? {...task, completed: !task.completed} : task));
   };
   
   // function to delete the task from the list 
   function deleteTask(id) {
-    setTasks(tasks.filter(tasks => tasks.id !== id));
+    setTasks(tasks.filter(task => task.id !== id));
   };
 
   return (
