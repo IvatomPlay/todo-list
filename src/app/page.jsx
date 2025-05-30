@@ -3,6 +3,7 @@
 import styles from "./page.module.css";
 import TaskInput from "@/components/TaskInput";
 import TaskList from "@/components/TaskList";
+import ThemeToggle from "@/components/ThemeToggle";
 import { useState } from "react";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
     <div className={styles.page}>
       <header className={styles.header}>
         <h1 className={styles.title}>My Task list</h1>
+        <ThemeToggle />
       </header>
       <TaskInput 
         onAdd={addTask}
