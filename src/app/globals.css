@@ -9,6 +9,17 @@
 :root {
   --background-color: #e7e7e7;  
   --container-color: #ffffff;
+  --text-color: #000000; 
+  --textfield-background: #ffffff;
+  --button-color: #22c682; 
+}
+
+[data-theme="dark"] {
+  --background-color: #252525;
+  --container-color: #3f3f3f; 
+  --text-color: #ffffff;
+  --textfield-background: #797979;
+  --button-color: #eea403; 
 }
 
 body {

@@ -4,7 +4,7 @@
   border: 1px dashed #888888;
   border-radius: 10px;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: var(--textfield-background);
   font-size: 15px;
 }
 
@@ -21,7 +21,6 @@
   height: 30px;
   gap: 20px;
   list-style: none;
-  background-color: #d1f8ff;
 }
 
 .tasks_text.completed {
@@ -33,7 +32,7 @@
   width: auto;
   border: none;
   border-radius: 10px;
-  background-color: #22c682;
+  background-color: var(--button-color);
   padding: 5px;
   color: #fafdff;
 }
