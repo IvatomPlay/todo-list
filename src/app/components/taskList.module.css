@@ -11,7 +11,7 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 .list_item {
@@ -21,6 +21,12 @@
   height: 30px;
   gap: 20px;
   list-style: none;
+}
+
+.tasks_text {
+  border: 1px solid #ff0d0d;
+  flex-grow: 2;
+  word-wrap: wrap;
 }
 
 .tasks_text.completed {
