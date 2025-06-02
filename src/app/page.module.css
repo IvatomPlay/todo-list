@@ -22,3 +22,9 @@
   font-family: 18px;
   text-transform: uppercase;
 }
+
+@media (max-width: 550px) {
+  .page {
+    width: 430px;
+  }
+}
