@@ -26,6 +26,7 @@ export default function addTask({onAdd}) {
         onChange={(element) => setText(element.target.value)}
         placeholder="Type the task please" 
         required
+        maxLength={35}
       />
       <button 
         className={styles.btn}

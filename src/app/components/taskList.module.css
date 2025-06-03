@@ -16,6 +16,7 @@
 
 .list_item {
   display: flex;
+  max-width: 100%;
   justify-content: space-between;
   align-items: center;
   height: 30px;
@@ -24,9 +25,8 @@
 }
 
 .tasks_text {
-  border: 1px solid #ff0d0d;
   flex-grow: 2;
-  word-wrap: wrap;
+  text-wrap: wrap;
 }
 
 .tasks_text.completed {
@@ -41,6 +41,7 @@
   background-color: var(--button-color);
   padding: 5px;
   color: #fafdff;
+  flex-shrink: 0;
 }
 
 .btn:hover {
