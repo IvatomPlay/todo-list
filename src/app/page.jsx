@@ -4,11 +4,12 @@ import styles from "./page.module.css";
 import TaskInput from "@/components/TaskInput";
 import TaskList from "@/components/TaskList";
 import ThemeToggle from "@/components/ThemeToggle";
-import { useState } from "react";
+import useTasks from "@/hooks/useTasks";
+// import { useEffect, useState, useState } from "react";
 
 export default function Home() {
 
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useTasks([]);
 
   // function adding new task to the list
   function addTask(text) {
